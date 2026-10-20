@@ -1,7 +1,7 @@
 /* Puntonet · Control de incidencias — lógica compartida por index.html (panel) y queja.html (formulario) */
 
 /* URL /exec del Apps Script (apps-script/incidencias.gs). Vacío = modo demo, los datos quedan solo en este navegador. */
-const ENDPOINT = '';
+const ENDPOINT = 'https://script.google.com/macros/s/AKfycbzXJsdETxVftMKgaBk0HC5DYTAfuTWzb6rP1TnTcaetMhD9C-8ZQz2yeWXjyRJz2V7x/exec';
 
 const CATEGORIAS = ['Radiografía', 'Audiometría', 'Optometría', 'Resultados', 'Agendamiento', 'Tiempo de respuesta', 'Atención en sucursal', 'Plataforma', 'Confidencialidad', 'Otros'];
 const ESTADOS = ['Abierta', 'En gestión', 'Cerrada'];

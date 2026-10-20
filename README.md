@@ -16,7 +16,7 @@ Registro y control de las incidencias de Puntonet con el servicio de Metrored.
 
 ## Activar el registro compartido
 
-Mientras `ENDPOINT` (en `assets/incidencias.js`) esté vacío, las páginas funcionan en **modo demo**: cada navegador guarda sus propias incidencias.
+**En producción:** `ENDPOINT` (en `assets/incidencias.js`) apunta al Apps Script publicado. Si se vacía, las páginas vuelven al **modo demo** (cada navegador guarda sus propias incidencias).
 
 1. Crear una hoja de Google → Extensiones → Apps Script → pegar `apps-script/incidencias.gs`.
 2. Cambiar `CLAVE` por una clave propia y compartirla con el equipo de Puntonet.
