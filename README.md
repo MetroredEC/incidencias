@@ -12,7 +12,8 @@ Registro y control de las incidencias de Puntonet con el servicio de Metrored.
 | `index.html` | Panel: indicadores, gráficos, filtros, edición, exportación a CSV |
 | `queja.html` | Formulario para registrar una queja nueva |
 | `assets/incidencias.js` | Lógica compartida: almacenamiento, categorías e histórico 2026 |
-| `apps-script/incidencias.gs` | Backend en Google Sheets |
+| `apps-script/completo.gs` | **Script completo para pegar en Apps Script**: backend + histórico + reporte jul–oct (un solo archivo) |
+| `apps-script/incidencias.gs` | Backend en Google Sheets (solo el backend y el histórico 2026) |
 | `apps-script/cargar-reporte-jul-oct.gs` | Carga única de las 37 quejas de julio al 21 de octubre de 2026 (instrucciones dentro del archivo) |
 
 ## Activar el registro compartido
